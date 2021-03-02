@@ -49,7 +49,8 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'blog.middleware.my_middleware',
-    'blog.middleware.MeroMiddleware'
+    'blog.middleware.MeroMiddleware',
+    'blog.middleware.MyProcessMiddleware'
 ]
 
 ROOT_URLCONF = 'superuser.urls'
